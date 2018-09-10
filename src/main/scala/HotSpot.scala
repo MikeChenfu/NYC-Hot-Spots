@@ -1,6 +1,4 @@
 /**************************************************************************************************************** 
-Author: Chenggang Lai
-Email:  cl004@uark.edu
 
 This Scala program (SimpleApp.scala) is developed to implement Getis-Ord Gi* statistical calculation to identify 
 spatio-temporal hot spots in New York City Yellow Cab taxi trip records spanning January 2009 to June 2015.
@@ -42,7 +40,7 @@ import com.github.nscala_time.time.Imports._
 import org.apache.spark.mllib.stat.Statistics
 import scala.math.{abs, atan, exp, floor, Pi, pow, sqrt}
 
-object SimpleApp {
+object HotSpot {
   
 	//set time format
   	val formatter = new java.text.SimpleDateFormat("yyyy/MM/dd HH:mm")
@@ -382,4 +380,4 @@ object SimpleApp {
 
 	} //main
 
-} //SimpleApp
+} //HotSpot
