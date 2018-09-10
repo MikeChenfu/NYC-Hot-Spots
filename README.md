@@ -9,7 +9,7 @@ spanning January 2009 to June 2015.
 
 Information about compile dependencies is provided in the simple.sbt file.
 
-3. run
+3. Run Command
 
 spark-submit   --jars joda-convert-1.7.jar --jars joda-time-2.9.jar --class "HotSpots"  --driver-memory 8g --master local[1] target/scala-2.10/*_2.10-1.0.jar input_test output 0.001 2
 
