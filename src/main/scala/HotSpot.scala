@@ -1,6 +1,6 @@
 /**************************************************************************************************************** 
 
-This Scala program (SimpleApp.scala) is developed to implement Getis-Ord Gi* statistical calculation to identify 
+This Scala program (HotSpot.scala) is developed to implement Getis-Ord Gi* statistical calculation to identify 
 spatio-temporal hot spots in New York City Yellow Cab taxi trip records spanning January 2009 to June 2015.
 
 Major functions include:
